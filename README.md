@@ -16,5 +16,7 @@ uv add ipykernel
 Add any packages you want to run in your project like numpy, scipy, pandas, pytorch,...  
 Add ipykernel to run to you project:  
 uv run ipython kernel install --user --name=uv  
-MUST REMEMBER RESTART YOUR VSCODE
-ENJOYINGGG THE BEST PACKAGES EVERRRRRRRRRR!!
+MUST REMEMBER RESTART YOUR VSCODE  
+
+
+ENJOYINGGG THE BEST PACKAGES EVERRRRRRRRRR!! ```bash
