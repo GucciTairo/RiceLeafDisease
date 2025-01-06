@@ -11,12 +11,13 @@ Docs to install UV Astral on Linux, Mac, Windows:
 https://docs.astral.sh/getting-started/installation/  
 
 After installation you can create virtual environment to run for jupyternotebook, run python code,...  
-uv venv  
-uv add ipykernel  
+`uv venv`  
+`uv add ipykernel`
+
 Add any packages you want to run in your project like numpy, scipy, pandas, pytorch,...  
 Add ipykernel to run to you project:  
 uv run ipython kernel install --user --name=uv  
 MUST REMEMBER RESTART YOUR VSCODE  
 
 
-ENJOYINGGG THE BEST PACKAGES EVERRRRRRRRRR!! ```bash
+**_ENJOYINGGG THE BEST PACKAGES EVERRRRRRRRRR!!_**
