@@ -8,4 +8,13 @@ https://www.kaggle.com/datasets/tairoooo/rice-leaf-disease-dataset
 
 If you consider using Jupyter Notebook (in VS Code) instead of Colab, I recommend you to use UV Astral.  
 Docs to install UV Astral on Linux, Mac, Windows:  
-https://docs.astral.sh/getting-started/installation/
+https://docs.astral.sh/getting-started/installation/  
+
+After installation you can create virtual environment to run for jupyternotebook, run python code,...  
+uv venv  
+uv add ipykernel  
+Add any packages you want to run in your project like numpy, scipy, pandas, pytorch,...  
+Add ipykernel to run to you project:  
+uv run ipython kernel install --user --name=uv  
+MUST REMEMBER RESTART YOUR VSCODE
+ENJOYINGGG THE BEST PACKAGES EVERRRRRRRRRR!!
