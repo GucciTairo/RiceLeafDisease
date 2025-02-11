@@ -17,7 +17,7 @@ After installation you can create virtual environment to run for jupyternotebook
 Add any packages you want to run in your project like numpy, scipy, pandas, pytorch,...  
 Add ipykernel to run to you project:  
 `uv run ipython kernel install --user --name=uv`  
-
+`watch -n 1 nvidia-smi`  
 **_MUST REMEMBER RESTART YOUR VSCODE_**  
 
 
