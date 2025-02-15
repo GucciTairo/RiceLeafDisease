@@ -20,6 +20,10 @@ Add ipykernel to run to you project:
 
 **_Remember must install cuda and cuDNN to suitable to work for tensorflow, keras, pytorch. Download right version to have best performance_**  
 Download link: https://developer.nvidia.com/  
+Using commands:  
+`nvidia-smi`  
+`nvidia-detector'  
+to check for the version of cuda and cuDNN
 
 Enable GPU usage commands:  
 `nvidia-settings`  
@@ -27,7 +31,9 @@ Enable GPU usage commands:
 Unlock the power usage of nvidia. change number 60 depend on the W usage of ur GPU  
 `sudo nvidia-smi -pl 60` 
 Check for power usage:  
-`nvidia-smi -q -d POWER` 
+`nvidia-smi -q -d POWER`   
+You can watch your model using how much power of GPU  
+`htop`  
 **_MUST REMEMBER RESTART YOUR VSCODE_**  
 
 
