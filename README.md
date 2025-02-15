@@ -17,7 +17,16 @@ After installation you can create virtual environment to run for jupyternotebook
 Add any packages you want to run in your project like numpy, scipy, pandas, pytorch,...  
 Add ipykernel to run to you project:  
 `uv run ipython kernel install --user --name=uv`  
-`watch -n 1 nvidia-smi`  
+
+**_Remember must install cuda and cuDNN to suitable to work for tensorflow, keras, pytorch. Download right version to have best performance_**
+Download link: https://developer.nvidia.com/
+Enable GPU usage commands:  
+`nvidia-settings`  
+`watch -n 1 nvidia-smi`
+Unlock the power usage of nvidia. change number 60 depend on the W usage of ur GPU  
+`sudo nvidia-smi -pl 60` 
+Check for power usage:  
+`nvidia-smi -q -d POWER` 
 **_MUST REMEMBER RESTART YOUR VSCODE_**  
 
 
