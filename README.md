@@ -22,7 +22,7 @@ Add ipykernel to run to you project:
 Download link: https://developer.nvidia.com/  
 Using commands:  
 `nvidia-smi`  
-`nvidia-detector'  
+`nvidia-detector`    
 to check for the version of cuda and cuDNN
 
 Enable GPU usage commands:  
