@@ -20,6 +20,7 @@ Add ipykernel to run to you project:
 
 **_Remember must install cuda and cuDNN to suitable to work for tensorflow, keras, pytorch. Download right version to have best performance_**  
 Download link: https://developer.nvidia.com/  
+
 Enable GPU usage commands:  
 `nvidia-settings`  
 `watch -n 1 nvidia-smi`
